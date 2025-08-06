@@ -1,0 +1,45 @@
+course.html
+html
+Copy
+Edit
+<!-- Author: Rhomin Tengco | Date: July 29, 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Courses | Violin Mastery School</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Violin Mastery School</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="course.html" class="active">Courses</a></li>
+        <li><a href="shop.html">Join & Shop</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Learn Violin – The Joyful Way</h2>
+      <p>Whether you’re 6 or 60, learning violin with us is a joyful experience! Our unique program allows you to play music confidently in under 6 months with guided lessons and fun performances at the end of each course.</p>
+      <p>From classical to folk, solos to ensembles – every student shines!</p>
+    </section>
+
+    <section class="gallery">
+      <img src="https://source.unsplash.com/300x300/?child,violin" alt="Child with violin">
+      <img src="https://source.unsplash.com/300x250/?adult,violin" alt="Adult playing violin">
+      <img src="https://source.unsplash.com/250x300/?elderly,violin" alt="Senior violinist">
+      <img src="https://source.unsplash.com/350x250/?teenager,violin" alt="Teen playing violin">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Violin Mastery School</p>
+  </footer>
+</body>
+</html>

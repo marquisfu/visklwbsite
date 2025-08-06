@@ -1,0 +1,58 @@
+shop.html
+html
+Copy
+Edit
+<!-- Author: Rhomin Tengco | Date: July 29, 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join & Shop | Violin Mastery School</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Violin Mastery School</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="shop.html" class="active">Join & Shop</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Join Us & Explore</h2>
+      <p>Subscribe below to receive updates, workshop invites, and more. Whether you're a beginner or an enthusiast, bring your family and friends and enjoy the magic of music together!</p>
+
+      <form class="subscribe-form">
+        <label for="email">Subscribe to Our Mailing List:</label>
+        <input type="email" id="email" placeholder="Your email here..." required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section class="merch">
+      <h2>Merchandise</h2>
+      <ul>
+        <li>🎻 Violins (Beginner to Advanced)</li>
+        <li>👕 T-Shirts, 🎽 Hoodies</li>
+        <li>🖊 Pens & Notebooks with Music Notes</li>
+        <li>🎼 Sheet Music, Accessories</li>
+      </ul>
+    </section>
+
+    <section class="extras">
+      <h2>Café & Practice Booths</h2>
+      <p>Enjoy our cozy café with healthy drinks and snacks. Rent soundproof booths – solo or group (up to 4 people) – to practice your violin at an hourly rate.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Violin Mastery School</p>
+  </footer>
+</body>
+</html>

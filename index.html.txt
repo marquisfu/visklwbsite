@@ -1,0 +1,44 @@
+index.html
+html
+Copy
+Edit
+<!-- Author: Rhomin Tengco | Date: July 29, 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Violin Mastery School</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Violin Mastery School</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="shop.html">Join & Shop</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome to Violin Mastery School</h2>
+      <p>Born from the heart of musicians who believe music changes lives, Violin Mastery School began with a single student and a passionate teacher in a cozy studio. Today, we’ve grown into a vibrant community of learners of all ages. We aim to bring the beauty of violin to everyone, nurturing musicality, confidence, and creativity.</p>
+      <p>Our future? A global movement where violin music fills homes, cafes, studios, and concert halls with joy. And you’re invited to join us.</p>
+      <a href="shop.html" class="button">Join Our Community</a>
+    </section>
+    <section class="gallery">
+      <img src="https://source.unsplash.com/400x300/?violin" alt="Violin 1">
+      <img src="https://source.unsplash.com/300x300/?violinist" alt="Violinist">
+      <img src="https://source.unsplash.com/350x300/?music,strings" alt="Strings">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Violin Mastery School</p>
+  </footer>
+</body>
+</html>
